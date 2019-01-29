@@ -1,0 +1,4 @@
+import faulthandler
+
+faulthandler.enable()
+faulthandler._sigsegv()
